@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.405 s <<< FAILURE! - in runners.TestRunner
+Careers Search.Search for automation tester jobs  Time elapsed: 12.928 s  <<< FAILURE!
+java.lang.AssertionError: Expected exact title 'automation tester' not found in search results. Found titles: [Consulting/Principal DBA, Senior Quality Test Engineer, Senior Quality Test Engineer II, Senior Site Reliability Engineer I, Site Reliability Engineer III]
+	at org.junit.Assert.fail(Assert.java:89)
+	at stepdefinitions.CareersSteps.i_should_see_the_exact_job_title_in_the_search_results(CareersSteps.java:72)
+	at ✽.I should see the exact job title "automation tester" in the search results(file:///C:/Users/Uzair.Akubat/OneDrive%20-%20Entain%20Group/Desktop/automation-excercise-2/src/test/resources/features/CareersSearch.feature:10)
+
